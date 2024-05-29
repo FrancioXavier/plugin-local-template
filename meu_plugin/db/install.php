@@ -11,14 +11,14 @@
  
 defined('MOODLE_INTERNAL') || die();
 
-function xmldb_local_myplugin_install() {
+function xmldb_local_meu_plugin_install() {
     global $DB;
 
-    // Cria a tabela local_myplugin_table.
+    // Cria a tabela local_meu_plugin_table.
     $dbman = $DB->get_manager();
 
     // Definir a tabela.
-    $table = new xmldb_table('local_myplugin_table');
+    $table = new xmldb_table('local_meu_plugin_table');
 
     // Adicionar campos à tabela.
     $table->add_field('id', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, XMLDB_SEQUENCE, null);
