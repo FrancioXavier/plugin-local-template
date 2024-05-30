@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package  meu_plugin
+ * @package  auto_cohort
  * @copyright 2017, Mohammed Essaid MEZERREG <me@mohessaid.com>
  * @license MIT
  * @doc https://moodle.org/mod/forum/discuss.php?d=262403

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package  meu_plugin
+ * @package  auto_cohort
  * @copyright 2017, Mohammed Essaid MEZERREG <me@mohessaid.com>
  * @license MIT
  * @doc https://docs.moodle.org/dev/Adding_a_web_service_to_a_plugin
@@ -15,17 +15,17 @@ defined('MOODLE_INTERNAL') || die();
 
 // We defined the web service functions to install.
 // $functions = array(
-//     'meu_plugin_service_function_name_1' => array(
-//             'classname'   => 'meu_plugin_external',
+//     'auto_cohort_service_function_name_1' => array(
+//             'classname'   => 'auto_cohort_external',
 //             'methodname'  => 'service_function_name_1',
-//             'classpath'   => 'local/meu_plugin/externallib.php',
+//             'classpath'   => 'local/auto_cohort/externallib.php',
 //             'description' => 'Description about the function',
 //             'type'        => 'read', // Type of operations (read, write).
 //     ),
-//     'meu_plugin_service_function_name_2' => array(
-//             'classname'   => 'meu_plugin_external',
+//     'auto_cohort_service_function_name_2' => array(
+//             'classname'   => 'auto_cohort_external',
 //             'methodname'  => 'service_function_name_2',
-//             'classpath'   => 'local/meu_plugin/externallib.php',
+//             'classpath'   => 'local/auto_cohort/externallib.php',
 //             'description' => 'Description about the function',
 //             'type'        => 'read', // Type of operations (read, write).
 //     ),

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package  meu_plugin
+ * @package  auto_cohort
  * @copyright 2017, Mohammed Essaid MEZERREG <me@mohessaid.com>
  * @license MIT
  * @doc 
@@ -11,6 +11,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-function xmldb_local_meu_plugin_uninstall(){
+function xmldb_local_auto_cohort_uninstall(){
     // Uninstallation code goes here
 }
